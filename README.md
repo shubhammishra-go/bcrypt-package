@@ -28,8 +28,14 @@ For example, you don't hash my_secret_password; you hash something like 1jfSLKe$
 how slow it is. You want it to be slow. Again, this is a redundant layer of security for if the hashed passwords are stolen. It makes it prohibitively expensive to brute-force anything.
 
 ```MinCost     int = 4  // the minimum allowable cost as passed in to GenerateFromPassword```
+<br>
+
 ```MaxCost     int = 31 // the maximum allowable cost as passed in to GenerateFromPassword```
+<br>
+
 ```DefaultCost int = 10 // the cost that will actually be set if a cost below MinCost is passed into GenerateFromPassword```
+
+<br>
 
 
 
