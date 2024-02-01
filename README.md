@@ -12,7 +12,7 @@ It is a package in Go that implements Provos and Mazières’s bcrypt adaptive h
 or specified a name to your repository like this
 ```go mod init github.com/shubhammishra-1```
 
-## Install uuid package
+## Install bcrypt package
 
 ```bash
 go get golang.org/x/crypto/bcrypt
